@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport"
+	content="width=1024px, height=768px; initial-scale=1">
+<link rel="stylesheet" href="structure/css/responsive.css">
+<head>
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="structure/utils/StringUtils.js"></script>
+<script type="text/javascript"
+	src="structure/process/terminaloverview/TerminalOverview.js"></script>
+<script type="text/javascript"
+	src="structure/utils/progress/circular/WorkingCircularProgress.js"></script>
+<script type="text/javascript"
+	src="structure/utils/div/CreateHorizontalProgress.js"></script>
+<script type="text/javascript"
+	src="structure/utils/charts/LoadCharts.js"></script>
+<script type="text/javascript"
+	src="structure/utils/onclick/OnClickEvents.js"></script>
+
+
+<script type="text/javascript">
+	window.onload = function() {
+		overview();
+	};
+</script>
+<!-- <style>
+#topBar {
+	position: fixed;
+	top: 0;
+	text-align: center;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #00a1de;
+	color: white;
+	/* margin-top: 20px; */
+	/* margin-left: 5px; */
+	line-height: 50px;
+}
+</style> -->
+<title>Terminal Overview</title>
+</head>
+<body bgcolor="white" style="height: 768px; width: 1024px;">
+
+
+	<div class="w3-blue w3-blue" id="topBar" style="width: 100%;">
+
+		<div
+			style="display: inline-block; margin-left: 40%; width: 20%; height: 100%; text-align: center; vertical-align: middle;">Terminal
+			F Overview</div>
+		<img style="margin-left: 25%; width: 8%; height: 100%;"
+			src='https://googledrive.com/host/0Bwxm6XF3WWbfelpRNkZfck9zaTQ/klm.png'></img>
+	</div>
+	<!--  -->
+	<div class="w3-display-container w3-text-white">
+		<img id="terminalImage" />
+	</div>
+	<!-- </h1> -->
+</body>
+</html>
